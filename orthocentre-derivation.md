@@ -370,7 +370,6 @@ K=(h,k)=\left(
 -\frac{NL(A+B)}{BL^2-2HLM+AM^2},
 -\frac{NM(A+B)}{BL^2-2HLM+AM^2}
 \right).
-}
 \]
 
 ## 10. Check the altitude from the origin
@@ -381,22 +380,22 @@ Lx+My+N=0.
 \]
 Its normal vector is \((L,M)\), so a direction vector along the line is \((M,-L)\). A perpendicular direction is therefore \((L,M)\). Hence the altitude from the origin has equation
 \[
-My-Lx=0.
+Mx-Ly=0.
 \]
 Check whether \(K=(h,k)\) satisfies it:
 \[
-Lk-Mh
-=L\left(-\frac{NM(A+B)}{Q}\right)
--M\left(-\frac{NL(A+B)}{Q}\right).
+Mh-Lk
+=M\left(-\frac{NL(A+B)}{Q}\right)
+-L\left(-\frac{NM(A+B)}{Q}\right).
 \]
 Multiply:
 \[
-Lk-Mh=-\frac{LNM(A+B)}{Q}
-+\frac{MNL(A+B)}{Q}.
+Mh-Lk=-\frac{MNL(A+B)}{Q}
++\frac{LNM(A+B)}{Q}.
 \]
 The two terms cancel:
 \[
-\boxed{Lk-Mh=0}.
+\boxed{Mh-Lk=0}.
 \]
 So the derived point lies on the altitude from the origin as required.
 
